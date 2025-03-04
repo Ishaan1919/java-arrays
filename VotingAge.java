@@ -7,7 +7,7 @@ public class VotingAge{
 		
 		int size = 10; // size of the array
 		int[] StudentAge = new int[size];
-		
+		System.out.print("Enter the age of 10 students");
 		for(int i=0;i<StudentAge.length;i++){
 			StudentAge[i] = input.nextInt(); // input for the Student age and storing in the array
 		}
